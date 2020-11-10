@@ -4,7 +4,7 @@ class Main {
   public static void main(String[] args) {
     int[] seatNumbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,15};//seat numbers
 
-    String[] names = new String[15];//makes a string of 15
+    String[] names = new String[14];//makes a string of 15
 
     Scanner myObj = new Scanner(System.in);//the scanner to get the names
 
