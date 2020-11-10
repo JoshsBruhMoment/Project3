@@ -6,12 +6,12 @@ class Main {
 
     String[] names = new String[15];
 
-    Scanner myObj = new Scanner(System.in);
+    Scanner myObj = new Scanner(System.in);//the scanner to get the names
 
     for (int i = 0; i < seatNumbers.length; i++) {
 
       System.out.println("what is your name? ");
-      names[i] = myObj.nextLine();
+      names[i] = myObj.nextLine();//prints what is your name and then lets you type into it.
 
     }
     int i = 0;
